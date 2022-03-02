@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2021-12-01T21:29:49.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="9sqimpfbmlT37rqkghpX" version="15.8.7" type="gitlab">
+  <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zCF4mZbvVpgICroJBNLq-11" value="NoSQL database" style="swimlane;dashed=1;fillColor=#FF8000;strokeColor=#C73500;fontColor=#FFFFFF;swimlaneFillColor=#FFE6CC;" parent="1" vertex="1">
+          <mxGeometry y="140" width="230" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="6WSHZpcCjqZEwsrlds3q-5" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Dados do sensor&lt;/div&gt;&amp;nbsp; ID do usuário&lt;br&gt;&amp;nbsp; Data do evento&lt;br&gt;&amp;nbsp; Batimentos cardíacos&lt;br&gt;&amp;nbsp; Condutância&lt;br&gt;&amp;nbsp; Temperatura da pele&lt;br&gt;&amp;nbsp; Movimento" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="zCF4mZbvVpgICroJBNLq-11" vertex="1">
+          <mxGeometry x="30" y="50" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zCF4mZbvVpgICroJBNLq-12" value="SQL database" style="swimlane;dashed=1;fillColor=#007FFF;fontColor=#ffffff;strokeColor=#0066CC;swimlaneFillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="230" y="140" width="840" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="zCF4mZbvVpgICroJBNLq-23" value="está em" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zCF4mZbvVpgICroJBNLq-12" vertex="1">
+          <mxGeometry x="198" y="204" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6WSHZpcCjqZEwsrlds3q-11" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Usuário&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;ID do usuário&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;E-mail&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;Senha&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="zCF4mZbvVpgICroJBNLq-12" vertex="1">
+          <mxGeometry x="78" y="70" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6WSHZpcCjqZEwsrlds3q-13" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Perfil&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;ID do usuário&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Nome&lt;br&gt;Idade&lt;br&gt;Gênero&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Ocupação&lt;br&gt;País&lt;br&gt;Cidade&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="zCF4mZbvVpgICroJBNLq-12" vertex="1">
+          <mxGeometry x="78" y="200" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6WSHZpcCjqZEwsrlds3q-16" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;País&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Código do país&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Nome do país&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="zCF4mZbvVpgICroJBNLq-12" vertex="1">
+          <mxGeometry x="370" y="232.5" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="6WSHZpcCjqZEwsrlds3q-17" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Subdivisão do país&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Código do país&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Cód da subdivisão&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;Nome da subdivisão&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="zCF4mZbvVpgICroJBNLq-12" vertex="1">
+          <mxGeometry x="640" y="225" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6WSHZpcCjqZEwsrlds3q-35" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Ocupação&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Título da ocupação&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="zCF4mZbvVpgICroJBNLq-12" vertex="1">
+          <mxGeometry x="78" y="420" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o_x0VkYriimlhZ0wNBBL-1" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Cidade&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Código da cidade&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Código do país&lt;br&gt;Código da subdivisão&lt;br&gt;Nome da cidade&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="zCF4mZbvVpgICroJBNLq-12" vertex="1">
+          <mxGeometry x="370" y="390" width="180" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="o_x0VkYriimlhZ0wNBBL-13" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="zCF4mZbvVpgICroJBNLq-12" source="6WSHZpcCjqZEwsrlds3q-16" target="o_x0VkYriimlhZ0wNBBL-1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="500" y="170" as="sourcePoint" />
+            <mxPoint x="600" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_x0VkYriimlhZ0wNBBL-14" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="zCF4mZbvVpgICroJBNLq-12" source="6WSHZpcCjqZEwsrlds3q-16" target="6WSHZpcCjqZEwsrlds3q-17" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="450" y="400" as="sourcePoint" />
+            <mxPoint x="550" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_x0VkYriimlhZ0wNBBL-16" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="zCF4mZbvVpgICroJBNLq-12" source="6WSHZpcCjqZEwsrlds3q-16" target="6WSHZpcCjqZEwsrlds3q-13" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="290" as="sourcePoint" />
+            <mxPoint x="370" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_x0VkYriimlhZ0wNBBL-17" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="zCF4mZbvVpgICroJBNLq-12" source="o_x0VkYriimlhZ0wNBBL-1" target="6WSHZpcCjqZEwsrlds3q-13" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="376" y="340" as="sourcePoint" />
+            <mxPoint x="264" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_x0VkYriimlhZ0wNBBL-18" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="zCF4mZbvVpgICroJBNLq-12" source="6WSHZpcCjqZEwsrlds3q-35" target="6WSHZpcCjqZEwsrlds3q-13" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="110" y="420" as="sourcePoint" />
+            <mxPoint x="210" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_x0VkYriimlhZ0wNBBL-19" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="zCF4mZbvVpgICroJBNLq-12" source="6WSHZpcCjqZEwsrlds3q-13" target="6WSHZpcCjqZEwsrlds3q-11" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="290" as="sourcePoint" />
+            <mxPoint x="370" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_x0VkYriimlhZ0wNBBL-21" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="zCF4mZbvVpgICroJBNLq-12" source="6WSHZpcCjqZEwsrlds3q-17" target="o_x0VkYriimlhZ0wNBBL-1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="640" y="420" as="sourcePoint" />
+            <mxPoint x="740" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o_x0VkYriimlhZ0wNBBL-20" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6WSHZpcCjqZEwsrlds3q-11" target="6WSHZpcCjqZEwsrlds3q-5" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="60" y="450" as="sourcePoint" />
+            <mxPoint x="160" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
